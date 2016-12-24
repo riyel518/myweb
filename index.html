@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Christopher Francisco</title>
+      <meta name="" content="">
+      <meta name="author" content="Christopher Francisco">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+      <!-- Style Sheet -->
+
+      <link rel="stylesheet" type="text/css"  href="css/mystyle.css">
+      <link rel="stylesheet" type="text/css"  href="css/animated.css">
+
+      <!-- js script -->
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+
+
+
+
+</head>
+
+<body ng-app="myApp" class="fullbackground ">
+
+
+
+
+  <div class="container-fluid ">
+
+
+
+
+    <div class="row-fluid mypadding  mytitle ">
+
+
+
+          <div class="cisco">
+
+            <h1>Christopher Francisco</h1>
+            <hr>
+
+            <p> Software Engineer + Mobile Engineer + Web Developer </p>
+            <p> Application Developer + Information System Manager + DevOps Engineer </p>
+
+
+
+          </div>
+
+    </div>
+
+
+    <div class="row-fluid navpadding" >
+
+      <nav class="navbar navbar-inverse "  >
+      <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+              <a class="navbar-brand visible-xs-block" style="float: none;" href="#">Menu</a>
+      </div>
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar" >
+        <ul class="nav navbar-nav">
+          <li><a class="active" href="#about"><span class="glyphicon glyphicon-user"></span> About </a></li>
+          <li><a href="#test"><span class="glyphicon glyphicon-tasks"></span> Project</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Blog</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Resume</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+
+          </ul>
+
+           <ul class="nav navbar-nav navbar-right "  id="mylefts">
+          <li><a href="#"><i class="fa fa-github" style="font-size:18px"> Github</i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square" style="font-size:18px"> Linkedin </i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square" style="font-size:18px"> Twitter </i></a></li>
+          </ul>
+      </div>
+      </div>
+      </nav>
+
+    </div>
+
+    <div ng-view class="slide-pop"></div>
+
+
+  </div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/moduleconfig.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+  $(window).scroll(function () {
+
+    if ($(this).scrollTop() > 70) {
+       $("nav").addClass(" navbar-fixed-top").fadeIn("slow")
+       $("#mylefts").removeClass(" navbar-right ")
+
+
+
+
+    }
+
+
+
+    else {
+       $("nav").removeClass(" navbar-fixed-top")
+       $("myleft").removeClass(" navbar-left ")
+       $("#mylefts").addClass(" navbar-right ")
+
+
+    };
+
+    });
+  });
+
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,244 @@
+h1 {
+
+     font-family: cursive;
+     font-style: italic;
+     color: #F0F8FF;
+     text-shadow: 4px 2px #000000;
+}
+
+
+hr {
+  	height: 3px;
+  	width: 25%;
+  	background: #B1800D;
+  	margin: 0 auto;
+  	margin-bottom: 10px;
+  	border: 0;
+  }
+
+
+
+
+.cisco {
+
+      text-align:center;
+      color: #F6FAFF;
+
+}
+
+.cisco h1:hover {
+
+   color: #B4C2FF;
+
+}
+
+.cisco p:hover {
+
+   color: #B4C2FF;
+
+}
+
+
+.mytitle {
+
+
+    background: url("../img/titleback6.jpg");
+    background-repeat: no-repeat;
+    border-color: #000000;
+    border-style: outset;
+    border-width: 2px;
+    height: auto;
+
+}
+
+.mypadding {
+
+
+   margin-top: 1%;
+   width: 75%;
+   position: relative;
+   left: 12%;
+
+
+}
+
+.navpadding {
+
+
+   margin-top: 1%;
+   width: 75%;
+   position: relative;
+   left: 12%;
+
+
+}
+
+.fullbackground {
+
+  background: url("../img/myblue.jpg");
+
+
+  height:  auto;
+
+}
+
+
+
+
+.navbar-collapse {
+    text-align: center;
+
+
+    }
+
+
+.navbar-inverse {
+
+  background: #00002D;
+  border-color: #000000;
+  border-style: outset;
+  border-width: 2px;
+
+
+}
+
+#aboutme {
+
+
+    background: url("../img/titleback6.jpg") ;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 2px;
+    height: auto;;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    width: 75%;
+    position: relative;
+    right: .5%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+
+
+
+}
+
+
+#aboutme p{
+
+   font-family: sans-serif;
+   font-size: 14px;
+   text-align: left;
+   text-shadow: none;
+   font-weight: normal;
+   font-style: normal;
+   padding-top: 1%;
+   text-align: left;
+   letter-spacing: 2px;
+
+
+
+}
+
+.aboutcontent {
+
+  background: url("../img/myback1.jpg") ;
+  border-style: groove;
+  border-color: #000000;
+  border-width: 1px;
+  margin-top: 1%;
+  height: auto;
+  padding-bottom: 4%;
+
+
+
+
+}
+
+#aboutme li{
+
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: left;
+  text-shadow: none;
+  font-weight: normal;
+  font-style: normal;
+
+  text-align: left;
+  letter-spacing: 2px;
+
+
+
+}
+
+ .mypad{
+
+   padding-top: 4.3%;
+
+}
+
+.img-circle {
+
+    border-radius: 35%;
+    height: 135px;
+    width: auto;
+
+}
+
+.photopad {
+
+
+   margin-bottom: 4%;
+   padding-right: 4%;
+   padding-bottom: 2%;
+
+}
+
+
+.myintro{
+
+
+  margin-bottom: 4%;
+  padding-left: 6%;
+  padding-top: 2%;
+
+
+
+}
+
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+.aboutmetop {
+
+   padding-top: 20px;
+
+}
+
+.aboutTitle {
+
+   padding-left: 20px;
+
+}
+
+.col-lg-2 {
+
+   margin-right: 25px;
+   padding-bottom: 2%;
+   padding-left: 2%;
+
+
+}
+
+.pull-left {
+
+  margin-left: 20px;
+
+}
